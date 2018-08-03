@@ -1,0 +1,112 @@
+@font-face{
+	font-family: redVelvet;
+	src: url("../redvelvet.ttf");
+
+}
+body {
+	background-color: #ffccee;
+	margin: auto;
+}
+
+/*voltar*/
+.voltar img {
+	width: 70px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: white;
+	top: 3%;
+	position: fixed;
+	left: 3.4%;
+	padding: 3px;
+}
+
+
+/*barra de seções*/
+.menu {
+	border: 1px solid black;
+	width: 23%;
+	background-color: white;
+	border-radius: 30px;
+	height: 8%;
+	position: absolute;
+	top: 4.6%;
+	left: 6%;
+}
+
+.menu li {
+	display: inline-block;
+	font-family: Impact;
+	color: black;
+	margin-left: 19px;
+	font-size: 15px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu ul {
+	word-spacing: 13px; 
+}
+
+/*fim da barra de seções*/
+
+
+/*retangulo onde tem o perfil*/
+.perfil {
+	position: absolute;
+	top: 5%;
+	width: 60%;
+    margin-left: 35%;
+	border: 1px solid #bfbfbf;
+	border-radius: 5px;
+	padding: 3px;
+	background-color: white;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.perfil h1 {
+	margin-bottom: -3px;
+}
+
+
+
+.dahyun {
+	width: 325px;
+	padding: 3px;
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 200px;
+	margin: 20px;
+	background-color: #ffccee;
+}
+
+/*informaçoes*/
+.lista {
+	margin: auto;
+}
+
+
+
+.r{
+ position: static; 
+ font-family: redVelvet;
+ margin-left: 6%;
+ margin-top: 12%;
+ font-size: 110px;
+ color: #f3ce1d;
+ text-shadow: 4px 4px black;
+}
+
+.dj{
+	font-family: redVelvet;
+	margin-left: 48%;
+	margin-top: 4%;
+	font-size: 65px; 	
+	color: #f3ce1d;
+	text-shadow: 3px 3px black;
+}

@@ -1,0 +1,177 @@
+body {
+	background-color: #ffccee;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	margin-left: 800px;
+	font-family: Arial;
+	margin-top: -2px;
+	color: #8c8c8c;
+}
+
+/*voltar*/
+.voltar img {
+	width: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	top: 60px;
+	position: fixed;
+	left: 239px;
+	padding: 3px;
+}
+
+/*barra de seções*/
+.menu {
+	border: 1px solid black;
+	width: 400px;
+	background-color: white;
+	border-radius: 30px;
+	height: 50px;
+	position: fixed;
+	top: 128px;
+	left: 60px;
+}
+
+
+.menu li {
+	display: inline-block;
+	font-family: Impact;
+	color: black;
+	margin-left: -5px;
+	font-size: 15px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu ul {
+	word-spacing: 37px;
+}
+/*fim da barra de seções*/
+
+
+/*perfil*/
+.bloco {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-family: Arial ;
+	position: fixed;
+	top: 197px;
+	left: 60px;
+}
+
+.fotogrande {
+	width: 120px;
+	float: left;
+	margin: 15px;
+	border-radius: 2px;
+	border: 1px solid black;
+	padding: 3px;
+	background-color: #ffccee;
+}
+
+.status {
+	border: 1px solid #999999;
+	border-radius: 5px;
+	margin-left: 155px;
+	margin-right: 17px;
+	margin-top: -12px;
+}
+
+.amigos img {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #bfbfbf;
+}
+/*fim do perfil*/
+
+
+/*posts*/
+.feed {
+	width: 600px;
+	height: 4550px;
+	background-color: white;
+	margin-top: 60px;
+	margin-left: 650px;
+	margin-bottom: 25px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-family: Arial;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	margin-left: 25px;
+	margin-bottom: -20px;
+	border: 1px solid #999999;
+}
+
+.iconcomentario {
+	width: 45px;
+	height: 45px;
+	margin-left: 25px;
+	margin-bottom: -20px;
+	border: 1px solid #999999;
+}
+
+.indice {
+	height: 50px;
+	margin-top: 15px;
+}
+
+.indice p {
+	display: inline;
+	margin-left: 10px;
+}
+
+.fotopost {
+	width: 550px;
+	margin-left: 25px;
+	margin-top: 15px;
+	border: 1px solid #999999;
+}
+
+.comentario {
+	height: 50px;
+	margin-top: 7px;
+}
+
+.comentario p {
+	display: inline;
+	margin-left: 10px;
+}
+
+.legenda {
+	margin-left: 25px;
+	margin-bottom: -1px;
+}
+
+.separaçao {
+	border: 1px solid #999999;
+	height: 0px;	
+}
+
+.emoji {
+	width: 20px
+}
+
+.like {
+	padding-right: 7px;
+	width: 20px
+}
+
+.likemensagem {
+	margin-left: 25px;
+}

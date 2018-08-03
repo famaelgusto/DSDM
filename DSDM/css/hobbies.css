@@ -1,0 +1,167 @@
+@font-face{
+	font-family: redVelvet;
+	src: url("../redvelvet.ttf");
+
+}
+
+body {
+	background-color: #e50126;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+/*voltar*/
+.voltar img {
+	width: 70px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: white;
+	top: 3%;
+	position: fixed;
+	left: 3.4%;
+	padding: 3px;
+}
+
+
+/*barra de seções*/
+.menu {
+	border: 1px solid black;
+	width: 23%;
+	background-color: white;
+	border-radius: 30px;
+	height: 8%;
+	position: fixed;
+	top: 4.6%;
+	left: 6%;
+}
+
+.menu li {
+	display: inline-block;
+	font-family: Impact;
+	color: black;
+	margin-left: 19px;
+	font-size: 15px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu ul {
+	word-spacing: 13px; 
+}
+.foto img {
+	border: 1px solid black;
+	border-radius: 5px;
+	height: auto;
+	position: fixed;
+	left: 60px;
+	width: 22%;
+	top: 197px;
+	padding: 3px;
+	background-color: white;
+}
+
+
+.musica {
+width: 60%;
+    margin-left: 35%;
+	border: 1px solid #bfbfbf;
+	border-radius: 5px;
+	padding: 3px;
+	background-color: white;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.intro {
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 3px;
+	background-color: #ffccee;
+}
+
+.hobbies img {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 3px;
+	background-color: #ffccee;
+}
+
+.hobbies li {
+	display: inline-block;
+	padding: 11px;
+}
+
+.hobbies {
+	margin-left: -39px;
+}
+
+
+
+.piano {
+	width: 60.5%;
+	height: 10%;
+	background-color: white;
+	margin-top: 25px;
+	margin-left: 35%;
+	margin-bottom: 15%;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-family: Arial;
+}
+
+.piano img {
+	width: 600px;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 3px;
+	background-color: #ffccee;
+}
+
+.anime {
+	width: 60.5%;
+	height: 10%;
+	background-color: white;
+	margin-top: -13%;
+	margin-left: 35%;
+	margin-bottom: 15%;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-family: Arial;
+}
+
+.jesus{
+	margin-top: -3%;
+}
+
+.r{
+ position: absolute; 
+ font-family: redVelvet;
+ margin-left: 12%;
+ margin-top: 12%;
+ font-size: 125px;
+ color: white;
+ text-shadow: 4px 4px black;
+}
+
+.dj{
+	font-family: redVelvet;
+	margin-left: 48%;
+	margin-top: 4%;
+	font-size: 65px; 	
+	color: white;
+	text-shadow: 3px 3px black;
+}

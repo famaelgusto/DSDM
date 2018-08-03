@@ -1,0 +1,187 @@
+@font-face{
+	font-family: redVelvet;
+	src: url("../redvelvet.ttf");
+
+}
+
+body {
+	background-color: #e50126;
+}
+
+a {
+	color: black;
+}
+
+p {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.r{
+ position: absolute; 
+ font-family: redVelvet;
+ margin-left: 12%;
+ margin-top: 15%;
+ font-size: 150px;
+ color: white;
+ text-shadow: 4px 4px black;
+}
+
+
+
+.dj{
+	font-family: redVelvet;
+	margin-left: 48%;
+	margin-top: 4%;
+	font-size: 65px; 	
+	color: white;
+	text-shadow: 3px 3px black;
+}
+
+/*voltar*/
+.voltar img {
+	width: 70px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: white;
+	top: 3%;
+	position: fixed;
+	left: 3.4%;
+	padding: 3px;
+}
+
+
+/*barra de seções*/
+.menu {
+	border: 1px solid black;
+	width: 23%;
+	background-color: white;
+	border-radius: 30px;
+	height: 8%;
+	position: fixed;
+	top: 4.6%;
+	left: 6%;
+}
+
+.menu li {
+	display: inline-block;
+	font-family: Impact;
+	color: black;
+	margin-left: 19px;
+	font-size: 15px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu ul {
+	word-spacing: 13px; 
+}
+
+.foto img {
+	border: 1px solid black;
+	border-radius: 5px;
+	height: auto;
+	position: fixed;
+	left: 60px;
+	width: 22%;
+	top: 197px;
+	padding: 3px;
+	background-color: white;
+}
+
+
+
+.twice {
+	width: 60.5%;
+	height: 10%;
+	background-color: white;
+	margin-top: 25px;
+	margin-left: 35%;
+	margin-bottom: 15%;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-family: Arial;
+}
+
+
+.introduçao {
+	width: 60.5%;
+	height: 7%;
+	background-color: white;
+	margin-top: -2%;
+	margin-left: 35%;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-family: Arial;
+}
+
+
+.sobre {
+	width: 60%;
+    margin-left: 35%;
+	border: 1px solid #bfbfbf;
+	border-radius: 5px;
+	padding: 3px;
+	background-color: white;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.sobre img {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #bfbfbf;
+	border-radius: 5px;
+}
+
+
+
+.twice2015 {
+	float: right;
+	border: 1px solid #bfbfbf;
+	border-radius: 5px;
+	padding-bottom: 6px;
+}
+
+.twice2015 img {
+	width: 300px;
+	padding: 5px;
+}
+
+
+
+.twice2016 {
+	float: left;
+	border: 1px solid #bfbfbf;
+	border-radius: 5px;
+	padding-bottom: 6px;
+}
+
+.twice2016 img {
+	width: 300px;
+	padding: 5px;
+}
+
+
+
+.twice2017 {
+	float: right;
+	margin: 0 0 20px 20px;
+	border: 1px solid #bfbfbf;
+	border-radius: 5px;
+	padding-bottom: 6px;
+	margin-right: 40px;
+
+}
+
+.twice2017 img {
+	width: 300px;
+	padding: 5px;
+}

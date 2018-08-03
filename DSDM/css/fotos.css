@@ -1,0 +1,97 @@
+﻿body {
+	background-color: #ffccee;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 3px;
+	background-color: #ffccee;
+}
+
+p {
+	margin-bottom: -4px;
+}
+
+/*voltar*/
+.voltar img {
+	width: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	top: 60px;
+	position: fixed;
+	left: 239px;
+	height: 50px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+
+/*barra de seções*/
+.menu {
+	border: 1px solid black;
+	width: 400px;
+	background-color: white;
+	border-radius: 30px;
+	height: 50px;
+	position: fixed;
+	top: 128px;
+	left: 60px;
+}
+
+
+.menu li {
+	display: inline-block;
+	font-family: Impact;
+	color: black;
+	margin-left: -5px;
+	font-size: 15px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu ul {
+	word-spacing: 37px;
+}
+/*fim da barra de seções*/
+
+/*feng lee*/
+.bloco {
+	position: fixed;
+	left: 60px;
+	top: 197px;
+	width: 400px;
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 280px;
+	background-color: white;
+	text-align: center;
+	font-family: Arial;
+}
+
+/*fotos*/
+.fotos {
+	width: 940px;
+	height: 805px;
+	background-color: white;
+	margin-top: 52px;
+	margin-left: 545px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-family: Arial ;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+

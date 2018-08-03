@@ -1,0 +1,58 @@
+@font-face{
+	font-family: redVelvet;
+	src: url("../redvelvet.ttf");
+
+}
+a:link, a:visited { 
+    color: white;
+    text-decoration: none;
+    cursor: grab;
+}
+
+a:link:active, a:visited:active { 
+    color: (internal value);
+} 
+h1 {
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px black;
+}
+
+h2 {
+	position: relative;
+	top: -20%;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px black;
+}
+
+body {
+	font-family: redVelvet;
+	text-align: center;
+	background-image: url("../img/background.jpg");
+	height: 300px;
+	margin-top: 250px;
+	background-size: 100%;
+}
+
+div {
+	display: inline-block;
+	border: 2px solid #0d0d0d;
+	text-align: center;
+	margin-top: auto;	
+	margin-bottom: auto;
+	font-size: 35px;
+	background-color: #ec0029;
+	border-radius: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+div img {
+	width: 150px;
+}
